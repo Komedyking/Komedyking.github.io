@@ -1,0 +1,56 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "lufgabold";
+  font-size: 300%;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-family: "lufgaregular";
+  font-size: 150%;
+}
+body {
+  background-color: #1e201e;
+}
+p {
+  border: rgba(176, 213, 230, 0.897);
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  text-align: center;
+}
+ul {
+  float: left;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: white;
+  font-size: 70px;
+}
